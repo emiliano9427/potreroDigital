@@ -1,0 +1,37 @@
+/*Ajustes generales*/
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: #D8E6E1;
+  margin: 0;}
+/*Ajustes body*/
+.titulo{
+  font-size: 43px;
+  margin-bottom: 10px;
+}
+.sub {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.6px;
+  color: #6C6C6C;
+}
+.cuerpo {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #6C6C6C;
+}
+.footer {
+  font-size: 18px;
+  font-weight: 100;
+  color: #6C6C6C;
+  letter-spacing: 0.05em;
+}
+.img {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  float: right;
+  width: 700px;
+  height: 500px;
+}
