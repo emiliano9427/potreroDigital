@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paso cero</title>
     <!--ESTILOS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -39,37 +39,37 @@
           </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="contenido/noticias.html" class="navbar__links">
+            <a href="public/contenido/noticias.html" class="navbar__links">
              Noticias
             </a>
           </li>
           <li class="navbar__item">
-            <a href="contenido/resultados.html" class="navbar__links">
+            <a href="public/contenido/resultados.html" class="navbar__links">
               Resultados
            </a>
           </li>
           <li class="navbar__item">
-           <a href="contenido/calendario.html" class="navbar__links">
+           <a href="public/contenido/calendario.html" class="navbar__links">
               Calendario
             </a>
           </li>
           <li class="navbar__item">
-           <a href="contenido/tabla-de-posiciones.html" class="navbar__links">
+           <a href="public/contenido/tabla-de-posiciones.html" class="navbar__links">
               Tabla de posiciones
             </a>
           </li>
           <li class="navbar__item">
-           <a href="contenido/estadisticas.html" class="navbar__links">
+           <a href="public/contenido/estadisticas.html" class="navbar__links">
               Estadisticas
             </a>
           </li>
           <li class="navbar__btn">
-            <a href="https://nba.2k.com/es-ES" class="button">
+            <a href="https://nba.2k.com/es-ES"class="button">
               Nba 2k22
             </a>
           </li>
           <li class="navbar__btn">
-            <a href="https://watch.nba.com/packages?ls=leaguepass:localsite:ar:perform:topnav" class="button">
+            <a href="https://watch.nba.com/packages?ls=leaguepass:localsite:ar:perform:topnav"class="button">
               League pass
             </a>
           </li>
@@ -87,27 +87,37 @@
       </div>
       <div class="carousel-inner"> 
         <div class="carousel-item active" data-bs-interval="10000">
-          <a href="contenido/kobe.html">
-            <img src="imagenes/CARRUSEL1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block" >
+          <a href="public/contenido/kobe.html">
+            <picture>
+              <source media="(max-width: 1200px)" srcset="public/imagenes/CARRUSEL-KOBE.jpg">
+              <img src="public/imagenes/CARRUSEL1.png" class="d-block w-100" alt="...">
+            </picture>
+            
+            <div class="carousel-caption" >
               <h2>El legado de Kobe</h2>
               <h4>Unico e irrepetible, un lider dentro y fuera de la cancha</h4>
             </div>
           </a>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <a href="contenido/nba75.html">
-            <img src="imagenes/CARRUSEL2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+          <a href="public/contenido/nba75.html">
+            <picture>
+              <source media="(max-width: 1200px)" srcset="public/imagenes/CARRUSEL-NBA.jpg">
+              <img src="public/imagenes/CARRUSEL2.png" class="d-block w-100" alt="...">
+            </picture>
+            <div class="carousel-caption">
             <h2>Celebramos el 75° Aniversario de la NBA</h2>
             <h4>Para celebrar las 75 temporadas de la NBA elegimos a los 75 mejores jugadores</h4>
           </div>
           </a>
         </div>
         <div class="carousel-item">
-          <a href="contenido/city.html">
-            <img src="imagenes/CARRUSEL3.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+          <a href="public/contenido/city.html">
+            <picture>
+              <source media="(max-width: 1200px)" srcset="public/imagenes/CARRUSEL-CITY.jpeg">
+              <img src="public/imagenes/CARRUSEL3.png" class="d-block w-100" alt="...">
+            </picture>
+            <div class="carousel-caption">
               <h2>City Edition 2021</h2>
               <h4>Nuevo lanzamiento de las camisetas City Edition</h4>
             </div>
@@ -125,43 +135,52 @@
     </div>
   </section>
   <section class="landing">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card-principal">
-          <img src="imagenes/stephen-curry-01102021-ftr-nbae-gettyimages_w8pj4m110vjw1vm22nvguoxqb.jpg" class="card-img-top" alt="...">
+        <div class="card-principal-land">
+          <img src="public/imagenes/stephen-curry-01102021-ftr-nbae-gettyimages_w8pj4m110vjw1vm22nvguoxqb.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Golden State Warriors es el equipo del momento: dominó a Brooklyn Nets con un Steph Curry fantástico</h5>
-            <p class="card-text">Golden State sigue en racha.</p>
-            <a href="contenido/golden.html" class="btn btn-primary stretched-link">Seguir leyendo</a>
+            <p class="card-text">Golden State Warriors es el equipo del momento: dominó a Brooklyn Nets con un Steph Curry fantástico.</p>
+            <a href="public/contenido/golden.html" class="btn btn-primary">Seguir leyendo</a>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card-principal">
-          <img src="imagenes/top-10.png" class="card-img-top" alt="...">
+        <div class="card-principal-land">
           <div class="card-body">
-            <h5 class="card-title">TOP 10 JUGADAS 17/11</h5>
-            <p class="card-text">Mira este top desde el canal oficial de la NBA</p>
-            <a href="https://youtu.be/Cx33ZL0IXRc" class="btn btn-primary stretched-link">Ver ahora</a>
+            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡Así comenzó la semana 6! 🔥 <a href="https://twitter.com/hashtag/NBA75?src=hash&amp;ref_src=twsrc%5Etfw">#NBA75</a> <a href="https://t.co/wr7l7ZH1WB">pic.twitter.com/wr7l7ZH1WB</a></p>&mdash; NBA Latam (@NBALatam) <a href="https://twitter.com/NBALatam/status/1463134236169281536?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card-principal">
-          <img src="imagenes/top-dunks.jpg" class="card-img-top" alt="...">
+        <div class="card-principal-land">
+          <img src="public/imagenes/derozan-lakers_1322d7nknqews1tw4cs2gdawq6.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Los mejores dunks de la semana 4</h5>
-            <p class="card-text">Mira este top desde el canal oficial de la NBA</p>
-            <a href="https://youtu.be/aduPKkHQLp4" class="btn btn-primary stretched-link">Ver ahora</a>
+            <h5 class="card-title">El gran momento de DeMar DeRozan en su paso por Los Angeles: datos, estadísticas y registros</h5>
+            <p class="card-text">El escolta de Chicago Bulls está viviendo un momento de auténtico esplendor en la gira del equipo por California.</p>
+            <a href="public/contenido/derozan.html" class="btn btn-primary">Seguir leyendo</a>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card-principal">
-          <img src="imagenes/shaq.jpg" class="card-img-top" alt="...">
+        <div class="card-principal-land">
           <div class="card-body">
-            <h5 class="card-title">Divertite un rato con estos bloopers</h5>
-            <a href=".." class="btn btn-primary stretched-link">Ver ahora</a>
+            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Rompe <a href="https://twitter.com/BolmaroLeandro?ref_src=twsrc%5Etfw">@BolmaroLeandro</a> y asiste de pique al suelo 🤩🇦🇷<a href="https://twitter.com/hashtag/RaisedByWolves?src=hash&amp;ref_src=twsrc%5Etfw">#RaisedByWolves</a> <a href="https://t.co/sHA86oxjk3">pic.twitter.com/sHA86oxjk3</a></p>&mdash; NBA Latam (@NBALatam) <a href="https://twitter.com/NBALatam/status/1462989084020908033?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-principal-land">
+          <div class="card-body">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;He definitely did not learn this from Elevator Ernie.&quot; 😂<br><br>Here&#39;s another hilarious edition of <a href="https://twitter.com/hashtag/Shaqtin?src=hash&amp;ref_src=twsrc%5Etfw">#Shaqtin</a> <a href="https://t.co/eiO05MvBz6">pic.twitter.com/eiO05MvBz6</a></p>&mdash; Shaqtin&#39; a Fool (@shaqtin) <a href="https://twitter.com/shaqtin/status/1460849107358998532?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-principal-land">
+          <div class="card-body">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🗣 WATCH. YOUR. HEAD.<br><br>The TOP-10 dunks from Week 5 ⤵ <a href="https://t.co/r0srRHTwgU">pic.twitter.com/r0srRHTwgU</a></p>&mdash; NBA (@NBA) <a href="https://twitter.com/NBA/status/1463205709273731072?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
       </div>
@@ -169,26 +188,24 @@
   </section>
 </main>
 <!--Footer-->
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<footer class="d-flex flex-wrap justify-content-between align-items-center">
   <p class="col-md-4 mb-0 text-muted">&copy; 2021 PASO CERO</p>
 
-  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-    <img src="http://icongr.am/material/basketball.svg?size=60&color=ff8000" alt="Avatar" class="avatar"> 
+  <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" id="navbar__logo">
+    <img src="http://icongr.am/material/basketball.svg?size=60&color=ff8000" alt="Avatar" class="avatar"> PASO CERO
   </a>
 
   <ul class="nav col-md-4 justify-content-end">
     <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-    <li class="nav-item"><a href="contenido/noticias.html" class="nav-link px-2 text-muted">Noticias</a></li>
-    <li class="nav-item"><a href="contenido/resultados.html" class="nav-link px-2 text-muted">Resultados</a></li>
-    <li class="nav-item"><a href="contenido/calendario.html" class="nav-link px-2 text-muted">Calendario</a></li>
-    <li class="nav-item"><a href="contenido/tabla-de-posiciones.html" class="nav-link px-2 text-muted">Tabla de posiciones</a></li>
-    <li class="nav-item"><a href="contenido/estadisticas.html" class="nav-link px-2 text-muted">Estadisticas</a></li>
+    <li class="nav-item"><a href="public/contenido/noticias.html" class="nav-link px-2 text-muted">Noticias</a></li>
+    <li class="nav-item"><a href="public/contenido/resultados.html" class="nav-link px-2 text-muted">Resultados</a></li>
+    <li class="nav-item"><a href="public/contenido/calendario.html" class="nav-link px-2 text-muted">Calendario</a></li>
+    <li class="nav-item"><a href="public/contenido/tabla-de-posiciones.html" class="nav-link px-2 text-muted">Tabla de posiciones</a></li>
+    <li class="nav-item"><a href="public/contenido/estadisticas.html" class="nav-link px-2 text-muted">Estadisticas</a></li>
   </ul>
 </footer>
-
-
   <!--SCRIPTS-->
-  <script src="js/main.js"></script>
+  <script src="public/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
